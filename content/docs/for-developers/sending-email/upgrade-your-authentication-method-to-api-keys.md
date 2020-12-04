@@ -50,7 +50,7 @@ Follow these steps to identify and replace your authentication method to API Key
 ## Upgrade to API Keys for your SMTP integration
 
 1. Generate API Keys in the SendGrid UI or programmatically with the least privileged permissions required for each of the endpoints you will be updating. For more information, see [API Key Permissions]({{root_url}}/ui/account-and-settings/api-keys/#api-key-permissions).
-1. Replace your username and password credentials with the newly-converted API key. You will want to use a converted version of your username for SMTP integration as well. Everyone's username is `apikey`.
+1. Replace your username and password credentials with the newly-converted API key. You will want to use a converted version of your username for SMTP integration as well. Everyone's username is `apikey`.  <<include example here, language is confusing>>
 
 Once the previous steps are completed, enable Two-Factor Authentication for all of your users, including [subusers]({{root_url}}/ui/account-and-settings/subusers/) and [teammates]({{root_url}}/ui/account-and-settings/teammates/).
 
